@@ -1,0 +1,23 @@
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		System.out.println("hello");
+		
+		try {
+			String hostName = "10.7.24.196";
+			String dbName = "paraskadb";
+			String userName = "vova";
+			String password = "Qwerty1-";
+			
+			Class.forName("org.postgresql.Driver");
+			
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+	}
+
+}
